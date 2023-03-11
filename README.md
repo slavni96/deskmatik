@@ -21,8 +21,9 @@ Note: In order to keep the original cable an ethernet cable can be used. Etherne
 
 ### How to build the source code?
 
-It can be built using Arduino IDE. Currently supports ESP8266 boards.
-Please reffer to ESP8266 documentation https://github.com/esp8266/Arduino
+It can be built using PlatformIO. Currently supports ESP8266 boards.
+Please reffer to ESP8266 documentation https://docs.platformio.org/en/stable/core/quickstart.html & https://loginov-rocks.medium.com/quick-start-with-nodemcu-v3-esp8266-arduino-ecosystem-and-platformio-ide-b8415bf9a038 & https://randomnerdtutorials.com/esp8266-nodemcu-vs-code-platformio-littlefs/
+
 IMPORTANT: Don't forget to upload the files from "data" folder to SPIFFS
 
 ### Configuration
@@ -50,7 +51,7 @@ Now, when the ESP is connected to your local network you can navigate to it's IP
 
 - Create step by step documentation.
 - Add OTA updates.
-- Add PlatformIO support.
+- ✅ PlatformIO support.
 - Add ESP32 support.
 - Add MQTT communication protocol.
 - Create native mobile app (ReactNative).
